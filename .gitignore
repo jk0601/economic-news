@@ -1,0 +1,23 @@
+# 로컬 설정 (키 유출 방지) — config.py 는 저장소에 예시(플레이스홀더) 포함, 실제 키는 .env 권장
+.env
+
+# 가상환경
+venv/
+.venv/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# 로그
+logs/
+
+# IDE / OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
